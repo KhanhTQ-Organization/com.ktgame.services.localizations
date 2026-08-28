@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/KhanhTQ-Organization/com.ktgame.services.localizations/compare/v1.0.0...v1.0.1) (2026-08-28)
+
+
+### Bug Fixes
+
+* update service ([1066bdd](https://github.com/KhanhTQ-Organization/com.ktgame.services.localizations/commit/1066bddf6b42f92581d0777ecb220bf5863813ac))
+
 # 1.0.0 (2026-08-28)
 
 

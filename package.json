@@ -1,6 +1,6 @@
 {
   "name": "com.ktgame.services.localizations",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "com.ktgame.services.localizations",
   "description": "KTgame localizations Package",
   "unity": "2019.4",
