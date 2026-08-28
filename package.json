@@ -1,6 +1,6 @@
 {
   "name": "com.ktgame.services.localizations",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "com.ktgame.services.localizations",
   "description": "KTgame localizations Package",
   "unity": "2019.4",
@@ -14,6 +14,6 @@
   },
   "dependencies": {
     "com.ktgame.core": "1.0.15",
-    "com.ktgame.i2.localization": "1.0.0"
+    "com.ktgame.i2.localization": "1.0.1"
   }
 }
