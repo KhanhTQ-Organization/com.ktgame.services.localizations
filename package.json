@@ -1,0 +1,19 @@
+{
+  "name": "com.ktgame.services.localizations",
+  "version": "1.0.1",
+  "displayName": "com.ktgame.services.localizations",
+  "description": "KTgame localizations Package",
+  "unity": "2019.4",
+  "author": {
+    "name": "ktgame",
+    "email": "khanhquang0912qh@gmail.com",
+    "url": "https://github.com/KhanhTQ-hub/com.ktgame.services.localizations"
+  },
+  "publishConfig": {
+    "registry": "http://3.25.115.5:4873"
+  },
+  "dependencies": {
+    "com.ktgame.core": "1.0.15",
+    "com.ktgame.i2.localization": "1.0.1"
+  }
+}

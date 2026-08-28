@@ -1,0 +1,19 @@
+{
+  "name": "com.ktgame.services.localizations",
+  "rootNamespace": "com.ktgame.services.localizations",
+  "references": [
+    "com.ktgame.core",
+    "Unity.TextMeshPro",
+    "UniTask",
+    "com.ktgame.i2.localization"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

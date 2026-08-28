@@ -1,0 +1,22 @@
+{
+  "name": "com.ktgame.services.localizations.editor",
+  "rootNamespace": "com.ktgame.services.localizations.editor",
+  "references": [
+    "com.ktgame.services.localizations",
+    "Unity.TextMeshPro",
+    "Unity.TextMeshPro.Editor",
+    "com.ktgame.i2.localization",
+    "com.localizations.tmpro-font-generator.editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
