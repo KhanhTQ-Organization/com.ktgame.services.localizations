@@ -36,8 +36,9 @@ namespace com.ktgame.services.localizations
 
 		public string GetLocalizedString(string id, params object[] parameters)
 		{
-			var localizedString = string.Format(LocalizationManager.GetTranslation(id), parameters);
-			return string.IsNullOrEmpty(localizedString) ? string.Empty : localizedString;
+			var translation = LocalizationManager.GetTranslation(id);
+			if (string.IsNullOrEmpty(translation)) return string.Empty;
+			return string.Format(translation, parameters);
 		}
 
 		private void MainFontAssetChanged(string language)
@@ -70,6 +71,7 @@ namespace com.ktgame.services.localizations
 			{
 				_mainFontAsset.fallbackFontAssetTable.Add(fallbackFontAsset);
 				_mainFontAsset.fallbackFontAssetTable.Sort(new TMPFontAssetComparable());
+				TMPro_EventManager.ON_FONT_PROPERTY_CHANGED(true, _mainFontAsset);
 			}
 		}
 
